@@ -1,0 +1,86 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.password-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  background-color: white;
+  padding-right: 10px;
+  border-radius: 5px;
+  overflow:hidden;
+  border:  1px solid gray;
+  input {
+    border: none;
+  }
+  svg {
+    font-size: 30px;
+  }
+}
+
+
+.login-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  form {
+    width: 100%;
+    max-width: 500px;
+     display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    input {
+      width: 100%;
+      height: 50px;
+      border-radius: 5px;
+      outline: none;
+      font-size: 20px;
+      text-indent: 10px;
+    }
+    button {
+      padding: 16px 0;
+      font-size: 20px;
+      background-color: blueviolet;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      transition: 0.2s;
+      cursor: pointer;
+      &:hover {
+        background-color:  #600cae;
+      }
+
+      &:active {
+        transform: scale(0.97);
+      }
+      &:disabled {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.login-image {
+  display: grid;
+  place-items: center;
+  img {
+    width: 70%;
+  }
+}
+
+
+.loading-icon {
+  font-size: 24px;
+  animation: spin 0.5s ease-in-out, infinite;
+}
+
+@keyframes spin {
+   to {
+     transform: rotate(360deg) ;
+   }
+}

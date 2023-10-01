@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  align-items: center;
+  background-color: #4361ee;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.footer_primary {
+  height: auto;
+  min-height: 650px;
+  padding-bottom: 100px;
+  width: 80%;
+}
+
+
+.footer_title_group {
+  align-items: center;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer_secondary {
+  align-items: center;
+  display: flex;
+  height: 170px;
+  justify-content: flex-start;
+  width: 33.3%;
+}
+
+.footer_icons {
+  color: #fff;
+  font-size: 40px;
+  margin-right: 10px;
+  min-width: 40px;
+}
+
+
+.footer_title {
+  font-weight: bold;
+  text-align: initial;
+  display: flex;
+  color: #fff;
+  font-size: 35px;
+}
+
+.footer_text  {
+  text-align: left;
+  color: #fff;
+  font-size: 17px;
+  line-height: 30px;
+  opacity: .7;
+}
+
+.footer_main {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer_main-follow {
+  margin-top: 20px
+}
+
+.footer_main_info {
+  height: 400px;
+  padding: 50px 40px 50px 0;
+  width: 33.3%;
+}
+
+.footer_main-text {
+  color: #fff;
+  font-size: 17px;
+  line-height: 30px;
+  opacity: .7;
+}
+
+.footer_line {
+  background-color: #fff;
+  height: 2px;
+  margin: 5px 0 30px;
+  width: 100px;
+}
+
+.footer_link {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 200px;
+  width: 100%;
+}
+
+.footer_title_link {
+  color: #fff;
+  font-size: 17px;
+  line-height: 30px;
+  opacity: .7;
+  text-decoration: none;
+}
+
+.footer_follow_wrapper {
+  display: flex;
+}
+
+.footer_follow-icons  {
+  color: #fff;
+  font-size: 30px;
+}
+
+.footer_follow-links {
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 50px;
+}
+
+.footer_copyright {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer_main_logo {
+  height: 100px;
+  width: 100%;
+}
+
+.footer_main_logo img {
+  height: 100px;
+  margin-top: -20px;
+  width: 150px;
+}

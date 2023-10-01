@@ -1,0 +1,25 @@
+.about__container {
+    font-size: 20px;
+    height: auto;
+    line-height: 34px;
+    margin: auto;
+    padding: 100px 0;
+    width: 90%;
+    h1 {
+        padding: 20px 0;
+    }
+}
+
+
+.about__images {
+    margin: 30px 0;
+    width: 100%
+}
+
+.about__list {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.about__list li {
+    list-style: disc;
+}

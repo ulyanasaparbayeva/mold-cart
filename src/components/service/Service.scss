@@ -1,0 +1,49 @@
+.service {
+  margin-top: 50px;
+  min-height: 360px;
+  width: 100%;
+  h1 {
+    text-align: center;
+   font-weight: 700;
+    font-size: 30px;
+  }
+}
+
+.service ul {
+  align-items: center;
+  border: 2px solid #ececec;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 50px auto;
+  min-height: 220px;
+  width: 90%;
+}
+
+
+.service li {
+  align-items: center;
+  border-right: 1px solid #d5d5d5;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-height: 250px;
+  width: 25%;
+}
+
+.service  ul li h4 {
+  font-weight: 600;
+  color: #333;
+  margin: 15px 0 10px;
+}
+
+
+.service ul li span {
+  color: #767676;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  width: 90%;
+}

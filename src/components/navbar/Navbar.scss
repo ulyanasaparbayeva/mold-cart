@@ -1,0 +1,236 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 8px 11px -7px rgba(0,0,0,.25);
+  width: 100%;
+  padding: 80px 80px;
+  height: 260px;
+}
+
+.navbar_container {
+  align-items: center;
+  display: flex;
+  margin: auto;
+
+}
+
+
+.navbar_searchbar {
+  background-color: #fff;
+  border: 2px solid #4361ee;
+  border-radius: 10px;
+  flex: 1 1;
+  height: 65px;
+  margin-left: 30px;
+  position: relative;
+
+}
+
+.form {
+  align-items: center!important;
+  display: flex!important;
+  height: 100%;
+  flex: 1 1!important;
+  position: relative;
+}
+
+
+
+.navbar_logo {
+  width: 180px;
+}
+
+.navbar_images {
+  width: 100%;
+}
+
+
+.searchbar_input {
+  border: none;
+  border-radius: 10px;
+  flex: 1 1;
+  font-size: 20px;
+  height: 100%;
+  outline: none;
+  text-indent: 10px;
+}
+.navbar_search_submit {
+  align-items: center;
+  background-color: #4361ee;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  display: flex;
+  font-size: 30px;
+  height: 102%;
+  justify-content: center;
+  margin-right: -2px;
+  width: 100px;
+}
+
+
+.navbar_top_categories {
+  display: flex;
+  margin-left: 12px;
+  position: relative;
+  width: 100%;
+  .navbar_categories_menu-all {
+    margin-top: 48px;
+    margin-left: 60px;
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+   .navbar_categories_menu {
+      background-color: #f4f4f4;
+      border: 1px solid #bebdbd;
+      border-radius: 30px;
+      margin: 0 10px;
+      Link {
+        color: #4361ee;
+        display: flex;
+        font-size: 20px;
+        padding: 10px 30px;
+        text-decoration: none;
+        white-space: nowrap;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+Link:hover{
+  text-decoration: none;
+}
+
+.navbar_categories_item {
+  color:  #4361ee;
+  display: flex;
+  font-size: 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.search__group {
+  width: 100%;
+  display: flex;
+}
+
+.navbar__main {
+  width: 90%;
+  margin: 0px auto;
+}
+
+
+.search__result {
+  width: 100%;
+  max-height: 300px;
+  background-color: white;
+  height: 300px;
+  position: absolute;
+  top: calc(100% + 30px);
+  z-index: 3;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 9px rgba(0,0,0, .25);
+  overflow-y:auto ;
+  &-item {
+    padding: 16px;
+    display:flex;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 9px rgba(0,0,0, .25);
+    height: 80px;
+    padding: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 10px;
+    img {
+      height: 100%;
+      aspect-ratio: 1/1;
+      margin-right: 10px;
+    }
+    h4 {
+      font-weight: 500;
+      font-size: 18px;
+      flex: 1;
+    }
+    strong {
+      font-size: 18px;
+      margin-right: 20px;
+      color: green;
+    }
+  }
+}
+
+.search__result_link {
+  text-decoration: none;
+}
+
+
+.no-result {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-height: 400px;
+  min-height: 270px;
+  background-color: white;
+  position: absolute;
+  top: 80px;
+  z-index: 3;
+  width: 100%;
+  box-shadow: 0 0 9px rgba(0,0,0, .25);
+  padding: 5px;
+  border-radius: 10px;
+  .navbar__search__result {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #9999;
+  }
+  .images__group {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    img {
+      margin-top: 20px;
+      width:150px;
+    }
+  }
+}
+
+.header__result {
+  display: flex;
+  align-items: center;
+  span {
+    padding: 0px 30px;
+  }
+  div {
+    color: dodgerblue;
+    cursor: pointer
+  }
+}
+
+
+.Navbar_search__indicator {
+  align-self: flex-start;
+  background-color: #e3e3e3;
+  border-radius: 5px;
+  margin: 5px 0 5px 10px;
+  padding: 7px 10px;
+}
+
+
+.header__flex {
+  display: flex;
+  align-items: center;
+}
+
+.results {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.6);
+}

@@ -1,0 +1,41 @@
+.categories {
+  margin: 0px auto;
+  width: 90%;
+  padding-bottom: 30px;
+}
+
+
+
+.category-wrapper {
+  margin: 0px auto;
+  width: 90%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.category-wrapper h2 {
+  text-align: start;
+  display: block;
+  width: 76%;
+  margin-top: 50px;
+  max-width: calc(350px * 3 + 40px);
+ font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.wrapper__grid {
+  grid-auto-rows: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.product-card--categories {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 13px 0 rgba(0,0,0,.2);
+  height: 460px;
+  object-fit: cover;
+  padding: 20px;
+  width: 290px;
+}

@@ -1,0 +1,44 @@
+.nav  {
+  align-items: center;
+  background-color: #eee;
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  padding: 0 100px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.navbar_img {
+  align-items: center;
+  display: flex;
+  margin-right: 30px;
+}
+
+.navbar_img img{
+  width: 40px;
+}
+
+.navbar_contact {
+  display: flex;
+}
+
+.navbar_contact img {
+  margin-right: 10px;
+}
+
+.navbar_phone {
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  margin-right: 30px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #007aff;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: none;
+}
